@@ -1,0 +1,85 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* HEADER */
+
+.header {
+  background-color: black;
+}
+
+.header img {
+  padding: 20px;
+}
+
+input {
+  background: black;
+  margin-top: 20px;
+  color: white;
+  border: none;
+}
+
+#search-box {
+  padding: 0px 90px 4px 0px;
+  border-bottom: white 1px solid;
+}
+
+#search-button {
+  margin-left: 20px;
+  padding: 0 10px 4px 10px;
+  border-bottom: blue 1px solid;
+}
+
+nav {
+  background-color: #16222F;
+}
+
+nav ul {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav-pills .active{
+  background-color: #00aaff;
+}
+
+/* MAIN */
+
+.jumbotron {
+  height: 500px;
+  background: url(http://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center center;
+  background-size: 100% 1100px;
+  color: white;
+}
+
+.main p {
+  font-size: 1.0em;
+  margin-left: 75px;
+}
+
+.main h1{
+  margin-left: 75px;
+  border-bottom: 4px solid blue;
+  display:inline;
+}
+
+.main .description {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+
+
+
